@@ -45,7 +45,7 @@ public class ListpkgActivity extends Activity {
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1,items);
 		lv1.setAdapter(adapter);
 		
-		String[] items1 = new String[res.size()];
+		String[] items1 = new String[res.size()]; // changes on 4 june
 		for(int i=0;i<res.size();i++){
 			items1[i] = res.get(i).pname;
 		}
